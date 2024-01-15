@@ -1,0 +1,41 @@
+*{
+    margin: 0;  padding: 0; box-sizing: border-box;
+}
+body{
+    font-family: 'Mulish', sans-serif;
+}
+header{
+    width: 95%; margin: 0 auto;
+    border: 2px solid black;
+}
+.navigation{
+    border: 2px solid salmon;
+    width: 98%; margin: 80px auto;
+    display: flex;  justify-content: space-between;
+}
+.left_nav{
+    display: flex; width: 42%;
+}
+.right_nav{
+    width: 57%
+}
+.menu_list{
+    display: flex; justify-content: space-evenly; height: 99%;
+    align-items: center;
+}
+.menu_list li{
+    list-style: none;
+    font-size: 1.112rem;
+    font-weight: 700;
+}
+
+.humbergur{
+   
+    margin: auto 0; display: none;
+}
+
+
+/* it is the End of nav bar decoration
+
+         and start of another portion*/
+
