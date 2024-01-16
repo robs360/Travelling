@@ -133,3 +133,24 @@ body{
      "b";
     }
  }
+
+
+
+
+ /* it is the End of banner decoration
+
+         and start of another portion*/
+
+
+@media screen and (min-width:375px) and (max-width:1100px){
+    .sec_div{
+         width: 90%;
+    }
+}
+
+
+ /* it is the End of a decoration
+
+         and start of another portion*/
+
+         
