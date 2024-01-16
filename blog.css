@@ -129,3 +129,76 @@ main{
     font-weight: 700; border: none; 
     border-radius: 8px; margin-top: 29px;
 }
+
+
+/* it is the End of main_content decoration
+
+         and start of another portion*/
+
+
+.distination{
+    min-height: 950px; display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-areas: 
+    "m m m m m m i i i i i i"
+    "s s s s n n n n n k k k"
+    "b b b b b B B B B B B B"; gap:10px;
+    margin-top: 100px;
+}
+.maldiv{
+    grid-area: m; border-radius: 7px; display: flex;
+     justify-content: center; align-items: center;
+    background-image: url(B9A2-Hero-Travel/Images/Rectangle\ 5.png);
+    background-size: cover; background-repeat: no-repeat;
+}
+.indoneshia{
+    grid-area: i;border-radius: 7px;justify-content: center; align-items: center;
+    display: flex;
+    background-image: url(B9A2-Hero-Travel/Images/Rectangle\ 8.png);
+    background-size: cover; background-repeat: no-repeat;
+}
+.srilanka{
+    grid-area: s;border-radius: 7px; display: flex;
+    justify-content: center; align-items: center;
+    background-image: url(B9A2-Hero-Travel/Images/Rectangle\ 6.png);
+    background-size: cover; background-repeat: no-repeat;
+}
+.north{
+    grid-area: n;border-radius: 7px;display: flex;
+    justify-content: center; align-items: center;
+    background-image: url(B9A2-Hero-Travel/Images/Rectangle\ 7.png);
+    background-size: cover; background-repeat: no-repeat;
+}
+.kashmir{
+    grid-area: k;border-radius: 7px;display: flex;
+    justify-content: center; align-items: center;
+    background-image: url(B9A2-Hero-Travel/Images/Rectangle\ 9.png);
+    background-size: cover; background-repeat: no-repeat;
+}
+.bangla{
+    grid-area: b;border-radius: 7px;display: flex;
+    justify-content: center; align-items: center;
+    background-image: url(B9A2-Hero-Travel/Images/Rectangle\ 10.png);
+    background-size: cover; background-repeat: no-repeat;
+}
+.Bandar{
+    grid-area: B;border-radius: 7px;display: flex;
+    justify-content: center; align-items: center;
+    background-image: url(B9A2-Hero-Travel/Images/Rectangle\ 11.png);
+    background-size: cover; background-repeat: no-repeat;
+}
+
+.distination h1{
+      font-size: 1.75rem;
+      font-weight: 800;
+      color: #fff;
+}
+.choose_distination{
+    font-size: 2.8rem; text-align: center;
+    font-weight: 800;
+}
+.how_choose{
+    font-size: 1rem; font-weight: 600;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center; margin-top: 30px;
+}

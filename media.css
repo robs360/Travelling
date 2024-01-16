@@ -90,3 +90,46 @@ body{
         width: 99%;
     }
 }
+
+
+/* it is the End of banner decoration
+
+         and start of another portion*/
+
+
+@media screen and (min-width:595px) and (max-width:800px){
+    
+   
+   .distination{
+    grid-template-columns: repeat(1,1fr);
+    height: 2300px;
+    grid-template-areas: 
+    "m"
+    "i"
+    "s"
+    "n"
+    "k"
+    "B"
+    "b";
+   }
+}
+
+@media screen and (min-width:375px) and (max-width:594px){
+    
+     
+     .choose_distination{
+        font-size: 1.9rem;
+     }
+    .distination{
+     grid-template-columns: repeat(1,1fr);
+     height: 2300px;
+     grid-template-areas: 
+     "m"
+     "i"
+     "s"
+     "n"
+     "k"
+     "B"
+     "b";
+    }
+ }
