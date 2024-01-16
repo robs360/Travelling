@@ -89,6 +89,9 @@ body{
     .Image{
         width: 99%;
     }
+    .Text h1{
+        font-size: 1.25rem;
+    }
 }
 
 
@@ -184,16 +187,20 @@ body{
     }
     .sub_dibba{
         width: 94%;
-        
+        left: auto; right: auto;
     }
     .extraa{
         width: 94%;
         left: 35px;
+        left: auto; right: auto;
     }
-    .deal_text{
-        font-size: 0.8rem;
-    }
+    .deal_text p{
+        font-size: 0.9rem;}
 
+    .abbr{
+        width: 140px; height: 40px;
+        font-size: 1rem;
+    }
 
 
 }
