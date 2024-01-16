@@ -204,3 +204,90 @@ body{
 
 
 }
+
+
+
+/* it is the End of a decoration
+
+         and start of another portion*/
+
+
+@media screen and (min-width:575px) and (max-width:1100px){
+    
+    .second_last{
+        flex-direction: column;
+        gap:20px
+    }
+    .last_left{
+        width: 98%
+    }
+    .last_right{
+        width: 98%;
+    }
+}
+
+@media screen and (min-width:375px) and (max-width:574px){
+    
+    .second_last{
+        flex-direction: column;
+        gap:20px
+    }
+    .last_left{
+        width: 98%
+    }
+    .last_right{
+        width: 98%;
+    }
+    .h3head{
+        left: 10px; top: 20px;
+        font-size: 0.9rem;
+    }
+}
+
+
+/* it is the End of a decoration
+
+         and start of another portion*/
+
+
+@media screen and (min-width:575px) and (max-width:1099px){
+    .last{
+        flex-direction: column;
+    }
+    .final1{
+        width: 80%;
+
+    }
+    .final2{
+        width: 80%;
+        height: 390px;
+    }
+    .ag_btn{
+        margin-top: 12%;
+        margin-left: 22%;
+    }
+}
+@media screen and (min-width:375px) and (max-width:574px){
+    .last{
+        flex-direction: column;
+    }
+    .final1{
+        width: 98%;
+
+    }
+    .final2{
+        width: 98%;
+        height: 390px;
+    }
+    .ag_btn{
+        margin-top: 12%;
+        margin-left: 22%;
+        width: 36%; height: 25%;
+    }
+    .inpp{
+        width: 300px; height: 60px;
+
+    }
+}
+
+

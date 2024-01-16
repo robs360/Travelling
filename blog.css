@@ -105,7 +105,7 @@ main{
 }
 .main_content{
     margin: 100px auto; 
-    width: 97%; display: flex;
+    width: 97%; display: flex; gap: 10px;
     justify-content: space-between;
 }
 .Text{
@@ -256,7 +256,7 @@ section{
      font-size:1rem;
      font-style: normal;
     font-weight: 400;
-line-height: 26px; /* 162.5% */
+line-height: 26px; 
 }
 .sec_div img{
     position: absolute;
@@ -281,7 +281,7 @@ section p{
     font-size: 1rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 26px; /* 162.5% */
+    line-height: 26px; 
     top: 154px; left: 30px;
 }
 
@@ -374,7 +374,7 @@ section p{
     font-size: 1.1rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 26px; /* 162.5% */
+    line-height: 26px; 
     margin-top: 20px;
 }
 .deal_text{
@@ -397,9 +397,103 @@ section p{
     display: inline;
 }
 .abbr{
+    margin-bottom: 30px;
      width: 180px;
      height: 60px;
      background-color: #FF5400;
      border-radius: 5px;border: none;
      margin-top: 30px; margin-left: 35px; font-size: 1.4rem;
+}
+.see{
+    width: 94%; margin-left: auto; margin-right: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.second_last{
+    width: 94%; margin-left: auto; margin-right: auto;
+    display: flex; justify-content: space-between;
+}
+.last_left{
+    width: 48%;
+}
+.last_right{
+     width: 49%; position: relative;
+     border-radius: 10px;
+}
+.lstyle{
+    
+}
+.last_left p{
+    line-height: 26px;
+    color: #5A5A5D;
+}
+.h3head{
+    position: absolute; top:100px;left: 120px;color: #fff;
+}
+.last{
+    width: 95%; margin-left: auto; margin-right: auto; 
+    margin-top: 100px; display: flex; justify-content: space-evenly;
+    gap: 20px;
+}
+.final1{
+    width: 45%; border: 1px solid #FF5400;
+    padding: 12px; border-radius: 8px;
+}
+.final1 h2{
+    color: #131318;
+    margin-bottom: 35px;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.final1 p{
+    color: #5A5A5D;
+   
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+    margin-bottom: 30px;
+}
+.final2{
+    width:52%;background-image: url(B9A2-Hero-Travel/Images/Rectangle\ 8.png);
+    background-size: cover; background-repeat: no-repeat;
+    border-radius: 10px;  
+
+}
+.inpp::placeholder{
+    color: rgba(19, 19, 24, 0.30);
+
+    font-size: 1rem;
+    font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+     display: block;
+     
+}
+.inpp{
+    width: 334px;
+    height: 70px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+}
+.ag_btn{
+    width:32%; height: 22%;
+    background-color: #FF5400;
+    border: none; border-radius: 10px;
+   
+    transform: rotate(-30deg);
+    margin-top:26%; margin-left:46%;
+}
+.sp1{
+    color:#fff;
+}
+.sp2{
+    color: #fff;
+    font-size: 1.32rem;
 }
