@@ -153,4 +153,47 @@ body{
 
          and start of another portion*/
 
-         
+@media screen and (min-width:600px) and (max-width:796px){
+    .deals{
+        width: 98%;
+    }
+    .sub_dibba{
+        width: 80%;
+    }
+    .extraa{
+        width: 80%;
+    }
+    .deal_text{
+        font-size: 1rem;
+    }
+
+}
+@media screen and (min-width:375px) and (max-width:599px){
+    .inline_element{
+        display: block;
+        margin-top: 10px;
+    }
+    .deals1{
+        width: 98%;
+    }
+    .deals2{
+        width: 98%;
+    }
+    .deals3{
+        width: 98%;
+    }
+    .sub_dibba{
+        width: 94%;
+        
+    }
+    .extraa{
+        width: 94%;
+        left: 35px;
+    }
+    .deal_text{
+        font-size: 0.8rem;
+    }
+
+
+
+}
