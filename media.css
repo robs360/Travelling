@@ -72,3 +72,21 @@ body{
         font-size: 1.9rem;
     }
 }
+
+
+/* it is the End of banner decoration
+
+         and start of another portion*/
+
+@media screen and (min-width:375px) and (max-width:800px){
+    
+    .main_content{
+        flex-direction: column;
+    }
+    .Text{
+        width: 99%;
+    }
+    .Image{
+        width: 99%;
+    }
+}

@@ -94,4 +94,38 @@ input::placeholder{
 
          and start of another portion*/
 
-         
+
+
+main{
+    width: 94%;
+    margin: 0 auto;
+}
+.main_content{
+    margin: 100px auto; 
+    width: 97%; display: flex;
+    justify-content: space-between;
+}
+.Text{
+    width: 50%;
+}
+.Image{
+    width: 47%;
+}
+.Text h1{
+    color: #131318; margin-top: 10px;
+    font-size: 2.5rem; font-weight:700 ;
+}
+.Text p,li{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem; line-height: 26px;
+}
+.Text li{
+    margin-left: 28px;
+}
+.btn{
+    width: 175px; height: 53px;
+    background-color: #ff5400;
+    font-size: 1.25rem; color: #fff;
+    font-weight: 700; border: none; 
+    border-radius: 8px; margin-top: 29px;
+}
