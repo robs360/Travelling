@@ -1,0 +1,74 @@
+*{
+    margin: 0;  padding: 0; box-sizing: border-box;
+}
+body{
+    font-family: 'Mulish', sans-serif;
+}
+@media screen and (min-width:475px) and (max-width:826px){
+    
+    .left_nav{
+        width: 78%;
+    }
+    .right_nav{
+        display: none;
+    }
+    .humbergur{
+        display: inline-block;
+    }
+}
+@media  screen and (min-width:375px) and (max-width:474px){
+    .left_nav{
+        width:70%;
+    }
+    .left_nav h1{
+        font-size: 1.8rem;
+    }
+    .left_nav img{
+        width: 42px; height: 32px;
+    }
+    .right_nav{
+        display: none;
+    }
+    .humbergur{
+        display: inline-block;
+    }
+}
+
+@media screen and (min-width:475px) and (max-width:826px){
+    
+       .inp{
+           width: 80%;
+           margin-left:auto; margin-right: auto;
+       }
+       input::placeholder{
+        font-size: 1.2rem;
+       }
+       .exdiv input::placeholder{
+          font-size: 1.1rem;
+       }
+       .excep{
+        width: 80%;
+        margin-left: auto; margin-right: auto;
+       }
+
+}
+@media screen and (min-width:375px) and (max-width:474px){
+    
+    .inp{
+        width: 80%;
+        margin-left:auto; margin-right: auto;
+    }
+    input::placeholder{
+     font-size: 1.2rem;
+    }
+    .exdiv input::placeholder{
+       font-size: 1.1rem;
+    }
+    .excep{
+     width: 80%;
+     margin-left: auto; margin-right: auto;
+    }
+    .banner h1{
+        font-size: 1.9rem;
+    }
+}

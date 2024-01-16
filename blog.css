@@ -5,16 +5,21 @@ body{
     font-family: 'Mulish', sans-serif;
 }
 header{
-    width: 95%; margin: 0 auto;
-    border: 2px solid black;
+    width: 94%; margin: 0 auto;
+
 }
 .navigation{
-    border: 2px solid salmon;
-    width: 98%; margin: 80px auto;
+   
+    width: 97%; margin: 80px auto;
     display: flex;  justify-content: space-between;
 }
 .left_nav{
     display: flex; width: 42%;
+    align-items: center;
+}
+.left_nav h1{
+    font-size: 2.25rem;
+    font-weight: 800;
 }
 .right_nav{
     width: 57%
@@ -32,10 +37,61 @@ header{
 .humbergur{
    
     margin: auto 0; display: none;
+    width: 55px;
 }
-
 
 /* it is the End of nav bar decoration
 
          and start of another portion*/
 
+
+.banner{
+    width: 97%; margin:30px auto;
+    min-height: 525px; border: 1px solid black;
+    background-image:url(B9A2-Hero-Travel/Images/Group\ 13\ \(1\)\ \(1\).png) ;
+    background-size: cover; background-repeat: no-repeat;
+}
+.banner h1{
+    font-size: 4rem;
+    color: #fff; text-align: center;
+    margin-top: 40px;
+}
+.banner p{
+    color: #fff; text-align: center;
+    font-size: 1rem;
+}
+.btn_container{
+    width: 81%; display: flex; flex-wrap: wrap;
+    min-height: 72px; justify-content: space-evenly;
+    border-radius: 8px; margin: 35px auto; align-items: center;
+    background: rgba(255, 255, 255, 0.30); gap: 25px;
+}
+.inp{
+    width: 172px; height: 52px;
+    border-radius: 8px; border: none;
+}
+.excep{
+    background-color:#ff5400;
+    position: absolute;
+}
+input::placeholder{
+    font-size: 1rem;
+    padding-left: 35px;
+    color: rgba(19, 19, 24, 0.5);
+}
+.exdiv{
+    position: relative;
+}
+.divex{
+    position: absolute;
+    z-index: 3;
+    top:18px ;left: 10px;
+}
+
+
+
+/* it is the End of banner decoration
+
+         and start of another portion*/
+
+         
